@@ -1,23 +1,75 @@
 ls #list items
   -a # including hidden 
   -l # long detail list
- pwd #print current working directory
- cd #change directory
+pwd #print current working directory
+cd #change directory
   .. #back one directory
  
- touch #simple way to create a file
-   filename{1...10} #creates 10 file 
-   -d [date] #add a created date
+touch #simple way to create a file
+  filename{1...10} #creates 10 file 
+  -d [date] #add a created date
  
- echo #display a messge 
+echo #display a messge 
  
- #edit files
- vim
- nano
+#edit files
+vim
+nano
  
- cat #see file name
- shred [filename] #no one can see the file
- 
- mkdir #create directory
+cat #see file name
+less #see file page by page
+head #see only the beginning of a file
+tail #see only the end of a file
+cmp #compare two files
+diff #compare two files more detail
 
+shred [filename] #no one can see the file
  
+mkdir #create directory
+cp [file] [newLoction]#copy file
+mv [file] [newLoction] #move file
+
+rm #files remove a file
+  -r #remove recursive
+  -f #remove forcefully 
+rmdir #remove empty directory
+
+whoami #see the user
+su #change users
+sudo #run commands as root
+useradd #add user
+passwd [user] #change passwords
+
+man [command] #help for comands
+whatis [command]
+which [command]
+whereis [command]
+
+wget #download from web
+curl #download from web
+
+zip #compress a file
+unzip #uncompress a file
+
+find #find a file names
+  -name #specify file name
+  -type #file types
+  -empty #empty directory
+  -perm #find by file permissions (excuteble, read, write)
+
+chmod #change file permissions
+chown #change owners of a file
+
+ifconfig
+ip address
+ip address | grep eth0
+ip address | grep eth0 | grep inet
+
+cat /etc/resolv.conf
+resolvectl status
+
+ping 
+traceroute
+
+netstat 
+netstatu -tulpn
+ss -tulpn
