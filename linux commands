@@ -1,0 +1,23 @@
+ls #list items
+  -a # including hidden 
+  -l # long detail list
+ pwd #print current working directory
+ cd #change directory
+  .. #back one directory
+ 
+ touch #simple way to create a file
+   filename{1...10} #creates 10 file 
+   -d [date] #add a created date
+ 
+ echo #display a messge 
+ 
+ #edit files
+ vim
+ nano
+ 
+ cat #see file name
+ shred [filename] #no one can see the file
+ 
+ mkdir #create directory
+
+ 
